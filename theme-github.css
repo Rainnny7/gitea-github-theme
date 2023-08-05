@@ -545,3 +545,8 @@
 .emoji[aria-label="musical\ notes"] {
 	filter: invert() hue-rotate(180deg);
 }
+
+.repository.file.list #repo-files-table tbody .svg.octicon-file-directory-fill,
+.repository.file.list #repo-files-table tbody .svg.octicon-file-submodule {
+	color: #7d8590;
+}
