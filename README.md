@@ -1,6 +1,9 @@
 # gitea-github-theme
 A theme to make Gitea look and feel like GitHub.
 
+## Prerequisites
+- Gitea v1.21+
+
 ## Install
 1. Place `theme-github.css` inside of `gitea/public/assets/css`
 2. Modify your `gitea/conf/app.ini` file and append `,github` to the end of `THEMES` under the `[ui]` section
